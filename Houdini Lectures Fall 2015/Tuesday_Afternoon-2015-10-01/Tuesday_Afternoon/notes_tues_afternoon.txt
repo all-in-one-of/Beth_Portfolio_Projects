@@ -1,0 +1,25 @@
+chramp("boxColor", .5,0)
+chramp("boxColor", .5,1)
+chramp("boxColor", .5,2)
+
+chramp("boxColor", ch("bc"),0)
+
+BC stamp("../copy1","boxClr",0)
+
+Put in a sphere to make it go in a circle
+cos(freq)*amp + offset
+sin(freq)*amp + offset
+
+cos($F*5)*5
+sin($F*5)*5
+
+To spiral
+cos($F*5)*5*$F/$NFRAMES
+sin($F*5)*5*$F/$NFRAMES
+
+to make it a polygon
+$TX + cos($F*5)*5*$F/$NFRAMES
+$TZ + sin($F*5)*5*$F/$NFRAMES
+
+
+$HIP/geo/rock_0024.bgeo
