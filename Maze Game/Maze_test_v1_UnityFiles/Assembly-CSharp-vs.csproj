@@ -46,12 +46,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\collision_detect.cs" />
+     <Compile Include="Assets\AVProMovieCapture\DemoScenes\MovieCaptureDemo.cs" />
+     <Compile Include="Assets\AVProMovieCapture\DemoScenes\TextureCaptureDemo.cs" />
+     <Compile Include="Assets\AVProMovieCapture\DemoScenes\WebcamCaptureDemo.cs" />
+     <Compile Include="Assets\AVProMovieCapture\Scripts\AVProMovieCaptureBase.cs" />
+     <Compile Include="Assets\AVProMovieCapture\Scripts\AVProMovieCaptureFromCamera.cs" />
+     <Compile Include="Assets\AVProMovieCapture\Scripts\AVProMovieCaptureFromScene.cs" />
+     <Compile Include="Assets\AVProMovieCapture\Scripts\AVProMovieCaptureFromTexture.cs" />
+     <Compile Include="Assets\AVProMovieCapture\Scripts\AVProMovieCaptureGUI.cs" />
+     <Compile Include="Assets\AVProMovieCapture\Scripts\AVProMovieCapturePlugin.cs" />
+     <Compile Include="Assets\AVProMovieCapture\Scripts\AVProUnityAudioCapture.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\AVProMovieCapture\Shaders\AVProMovieCapture_RGBA2YCbCr.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\AVProMovieCapture\Shaders\AVProMovieCapture_RedBlueSwap.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\AVProMovieCapture\Shaders\AVProMovieCapture_Shared.cginc" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/10568081/Documents/portfolio_projects/Maze Game/Maze_test_v1_UnityFiles/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

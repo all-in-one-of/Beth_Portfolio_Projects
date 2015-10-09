@@ -46,12 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AVProMovieCapture\Editor\AVProMovieCaptureEditorWindow.cs" />
+     <Compile Include="Assets\AVProMovieCapture\Editor\AVProMovieCaptureFromCameraEditor.cs" />
+     <Compile Include="Assets\AVProMovieCapture\Editor\AVProMovieCaptureFromSceneEditor.cs" />
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\AVProMovieCapture\Shaders\AVProMovieCapture_RGBA2YCbCr.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\AVProMovieCapture\Shaders\AVProMovieCapture_RedBlueSwap.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\AVProMovieCapture\Shaders\AVProMovieCapture_Shared.cginc" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/10568081/Documents/portfolio_projects/Maze Game/Maze_test_v1_UnityFiles/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
