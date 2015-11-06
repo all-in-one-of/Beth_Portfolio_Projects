@@ -20,20 +20,8 @@ Platform assembly: C:\Users\10568081\Documents\portfolio_projects\Maze Game\Maze
 Loading C:\Users\10568081\Documents\portfolio_projects\Maze Game\Maze_test_v1_UnityFiles\maze_test_build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\10568081\Documents\portfolio_projects\Maze Game\Maze_test_v1_UnityFiles\maze_test_build_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\10568081\Documents\portfolio_projects\Maze Game\Maze_test_v1_UnityFiles\maze_test_build_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.194 seconds
+- Completed reload, in  0.208 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
-<RI> Initialized touch support.
-Platform assembly: C:\Users\10568081\Documents\portfolio_projects\Maze Game\Maze_test_v1_UnityFiles\maze_test_build_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\10568081\Documents\portfolio_projects\Maze Game\Maze_test_v1_UnityFiles\maze_test_build_Data\Managed\System.dll (this message is harmless)
-Shader 'Nature/Terrain/Specular': dependency 'BaseMapShader' shader 'Hidden/TerrainEngine/Splatmap/Specular-Base' not found
-The tree tree_two couldn't be instanced because the prefab contains no valid mesh renderer.
- 
-(Filename:  Line: 149)
-
-Platform assembly: C:\Users\10568081\Documents\portfolio_projects\Maze Game\Maze_test_v1_UnityFiles\maze_test_build_Data\Managed\Boo.Lang.dll (this message is harmless)
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3e98 -> priority: 1 
-  Thread -> id: 2b94 -> priority: 1 
