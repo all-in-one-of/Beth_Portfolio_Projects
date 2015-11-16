@@ -1,0 +1,34 @@
+//make sure only one instance of window is open at a time
+if (`window -exists myWindow`) deleteUI myWindow;
+
+//make a window
+window -title "Stair Creator" -widthHeight 300 200 myWindow;
+if (`windowPref -exists myWindow`) windowPref -remove myWindow;
+
+columnLayout;
+text -l "Create Stairs";
+$stepWidthInside = `intFieldGrp -l "Step Width"`;
+$stepHeight = `intFieldGrp -l "Step Height"`;
+$stepDepthInside = 'intFieldGrp -l "Step Depth"';
+$spiralAngle = `intFieldGrp -l "Spiral Angle"`;
+$numberDuplicate = `intFieldGrp -l "Number of Steps"`;
+button -1 "Create Stairs" -command "createStairs";
+
+showWindow myWindow;
+
+global proc createStairs () {
+
+//create top of the step
+CreatePolygonPlane;
+polyPlane -w 1 -h $stepDepthInside -sx 1 -sy 1 -ax 0 1 0 -cuv 2 -ch 1;
+
+//create the front of the step
+
+//move the pivot to the bottom right corner of the stair
+
+//duplicate, rotate at new pivot (y-axis) and shift up y-axis
+duplicate -rr; rotate -r 0 45 0; move -r 0 1 2; for ($i=1; $i<$numberDuplicate; ++$i) duplicate -rr -st; select pCube2 pCube3 pCube4 pCube5 pCube6 pCube7 pCube8 pCube9 pCube10 pCube11;
+
+
+
+}
